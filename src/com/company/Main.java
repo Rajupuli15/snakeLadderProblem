@@ -3,7 +3,8 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	System.out.println("Player at Start Position Zero");
+        int dice = (int) (Math.random() * 6) + 1;
+        System.out.println(dice);
 
     }
 }
