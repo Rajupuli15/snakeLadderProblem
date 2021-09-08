@@ -17,15 +17,18 @@ public class Main {
             int other = (int) Math.floor(Math.random() * 10) % 3;
 
             if (other == ladder) {
+                if (Sum <=100 && (Sum + dice <=100))
                 Sum = Sum + dice;
                 System.out.println("Ladder");
-            } else if (other == snake) {
+            }
+            else if (other == snake) {
 
                 if (Sum > 0 && (Sum - dice) >= 0) {
                     Sum = Sum - dice;
                     System.out.println("Snake");
                 }
-            } else {
+            }
+            else {
                 System.out.println("NoTurn");
             }
 
