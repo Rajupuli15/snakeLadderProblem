@@ -5,6 +5,7 @@ public class Main {
     static final int ladder = 1;
     static final int snake = 2;
     static int Sum = 0;
+    static int i = 0;
 
     public static void main(String[] args) {
 
@@ -31,7 +32,12 @@ public class Main {
             else {
                 System.out.println("NoTurn");
             }
+            System.out.println("Number on dice =" + Sum);
+            i++;
 
         }
+        System.out.println("Total Number of Dice Played =" + i);
+        System.out.println(Sum);
+
     }
 }
